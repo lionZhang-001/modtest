@@ -1,7 +1,10 @@
  
 package modtest
 
-import "fmt"
+import (
+    "fmt"
+    "errors"
+)
 
 // Hi 返回一个友好的问候
 /*func Hi(name string) string {
